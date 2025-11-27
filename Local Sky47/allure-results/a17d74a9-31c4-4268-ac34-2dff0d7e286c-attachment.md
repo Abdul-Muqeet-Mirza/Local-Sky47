@@ -1,0 +1,167 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Sky-47 logo" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: ADMIN PORTAL
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "Dashboard" [ref=e16] [cursor=pointer]:
+                - /url: /
+                - img [ref=e17] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: Dashboard
+            - listitem [ref=e23]:
+              - link "User Management" [ref=e24] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e25] [cursor=pointer]
+                - generic [ref=e30] [cursor=pointer]: User Management
+            - listitem [ref=e31]:
+              - link "Organization" [active] [ref=e32] [cursor=pointer]:
+                - /url: /organizations
+                - img [ref=e33] [cursor=pointer]
+                - generic [ref=e37] [cursor=pointer]: Organization
+            - listitem [ref=e38]:
+              - link "Knowledge Base" [ref=e39] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e40] [cursor=pointer]
+                - generic [ref=e42] [cursor=pointer]: Knowledge Base
+            - listitem [ref=e43]:
+              - link "Invitation Tracking" [ref=e44] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e45] [cursor=pointer]
+                - generic [ref=e51] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e52]:
+              - link "Audit & Log" [ref=e53] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e54] [cursor=pointer]
+                - generic [ref=e57] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e59] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e61] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e66]
+          - paragraph [ref=e67]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e68]:
+          - img "SKY-47 Super Admin" [ref=e70]
+          - paragraph [ref=e71]: SKY-47 Super Admin
+      - generic [ref=e73]:
+        - heading "Organizations" [level=3] [ref=e74]
+        - generic [ref=e75]:
+          - button "Create Organization" [ref=e77] [cursor=pointer]:
+            - img
+            - text: Create Organization
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80] [cursor=pointer]:
+                - img
+                - generic [ref=e81] [cursor=pointer]: Sort By
+              - generic [ref=e82] [cursor=pointer]:
+                - img
+                - text: Filters
+            - generic [ref=e84]:
+              - textbox "Search..." [ref=e86]
+              - img [ref=e88]
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: QA 5853
+                  - button "More options" [ref=e97] [cursor=pointer]:
+                    - img
+                - generic [ref=e98]: active
+              - button "View Organization" [ref=e101] [cursor=pointer]
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: QA Test 2
+                  - button "More options" [ref=e106] [cursor=pointer]:
+                    - img
+                - generic [ref=e107]: active
+              - button "View Organization" [ref=e110] [cursor=pointer]
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: QA Test
+                  - button "More options" [ref=e115] [cursor=pointer]:
+                    - img
+                - generic [ref=e116]: active
+              - button "View Organization" [ref=e119] [cursor=pointer]
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]: User Module
+                  - button "More options" [ref=e124] [cursor=pointer]:
+                    - img
+                - generic [ref=e125]: active
+              - button "View Organization" [ref=e128] [cursor=pointer]
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - generic [ref=e132]: qa
+                  - button "More options" [ref=e133] [cursor=pointer]:
+                    - img
+                - generic [ref=e134]: active
+              - button "View Organization" [ref=e137] [cursor=pointer]
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]: fawad
+                  - button "More options" [ref=e142] [cursor=pointer]:
+                    - img
+                - generic [ref=e143]: active
+              - button "View Organization" [ref=e146] [cursor=pointer]
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: Org 11
+                  - button "More options" [ref=e151] [cursor=pointer]:
+                    - img
+                - generic [ref=e152]: active
+              - button "View Organization" [ref=e155] [cursor=pointer]
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: Org 10
+                  - button "More options" [ref=e160] [cursor=pointer]:
+                    - img
+                - generic [ref=e161]: active
+              - button "View Organization" [ref=e164] [cursor=pointer]
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e168]: Org 9
+                  - button "More options" [ref=e169] [cursor=pointer]:
+                    - img
+                - generic [ref=e170]: active
+              - button "View Organization" [ref=e173] [cursor=pointer]
+          - generic [ref=e174]:
+            - navigation "Pagination" [ref=e175]:
+              - listitem:
+                - button "Previous page" [disabled]:
+                  - img "Previous page"
+              - listitem [ref=e176]:
+                - button "Page 1 is your current page" [ref=e177] [cursor=pointer]: "1"
+              - listitem [ref=e178]:
+                - button "Page 2" [ref=e179] [cursor=pointer]: "2"
+              - listitem [ref=e180]:
+                - button "Next page" [ref=e181] [cursor=pointer]:
+                  - img "Next page" [ref=e182] [cursor=pointer]
+            - combobox [ref=e184]:
+              - generic: 9 / page
+              - img [ref=e185]
+  - alert [ref=e187]: Sky47 Platform
+```

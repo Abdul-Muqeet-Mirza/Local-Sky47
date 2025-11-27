@@ -1,0 +1,13 @@
+✅ Logged in successfully
+➡️ Navigating to Knowledge Bases...
+✅ Knowledge Bases page opened
+🎉 Knowledge Base "Test KB 1763036996754" created
+✅ Opened Knowledge Base "Test KB 1763036996754"
+➡️ Navigating to Datasets tab...
+✅ Datasets tab opened
+✅ Clicked "Add File" button
+📂 Uploaded file: C:\Users\PC\Documents\Local Sky47\tests\test-data\sample.pdf
+✅ Clicked "Upload" button
+🎉 File uploaded successfully and visible on UI
+🗑️ Clicked trash button to delete the uploaded dataset
+✅ Dataset file deleted successfully

@@ -1,0 +1,137 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Sky-47 logo" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: ADMIN PORTAL
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "Dashboard" [ref=e16] [cursor=pointer]:
+                - /url: /
+                - img [ref=e17] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: Dashboard
+            - listitem [ref=e23]:
+              - link "User Management" [ref=e24] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e25] [cursor=pointer]
+                - generic [ref=e30] [cursor=pointer]: User Management
+            - listitem [ref=e31]:
+              - link "Organization" [ref=e32] [cursor=pointer]:
+                - /url: /organizations
+                - img [ref=e33] [cursor=pointer]
+                - generic [ref=e37] [cursor=pointer]: Organization
+            - listitem [ref=e38]:
+              - link "Knowledge Base" [ref=e39] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e40] [cursor=pointer]
+                - generic [ref=e42] [cursor=pointer]: Knowledge Base
+              - list [ref=e44]:
+                - listitem [ref=e45]:
+                  - link "Dataset" [ref=e47] [cursor=pointer]:
+                    - /url: /knowledge-bases/51/data-sets
+                    - img [ref=e48] [cursor=pointer]
+                    - generic [ref=e59] [cursor=pointer]: Dataset
+                - listitem [ref=e60]:
+                  - link "Connectors" [ref=e62] [cursor=pointer]:
+                    - /url: /knowledge-bases/51/connectors
+                    - img [ref=e63] [cursor=pointer]
+                    - generic [ref=e67] [cursor=pointer]: Connectors
+                - listitem [ref=e68]:
+                  - link "Settings" [ref=e70] [cursor=pointer]:
+                    - /url: /knowledge-bases/51/settings
+                    - img [ref=e71] [cursor=pointer]
+                    - generic [ref=e74] [cursor=pointer]: Settings
+            - listitem [ref=e75]:
+              - link "Invitation Tracking" [ref=e76] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e77] [cursor=pointer]
+                - generic [ref=e83] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e84]:
+              - link "Audit & Log" [ref=e85] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e86] [cursor=pointer]
+                - generic [ref=e89] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e91] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e93] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e97]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e98]
+          - paragraph [ref=e99]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - paragraph
+      - generic [ref=e104]:
+        - heading "Data Sets" [level=3] [ref=e105]
+        - generic [ref=e106]:
+          - button "Add File" [ref=e107] [cursor=pointer]:
+            - img
+            - text: Add File
+          - generic [ref=e108]:
+            - button "Bulk" [disabled]:
+              - text: Bulk
+              - img
+            - generic [ref=e110]:
+              - textbox "Search..." [ref=e112]
+              - img [ref=e114]
+        - generic [ref=e117]:
+          - table [ref=e120]:
+            - rowgroup [ref=e121]:
+              - row "Select all Name Chunk Status Enable Action" [ref=e122]:
+                - cell "Select all" [ref=e123]:
+                  - checkbox "Select all" [ref=e124]
+                - cell "Name" [ref=e125]
+                - cell "Chunk" [ref=e126]
+                - cell "Status" [ref=e127]
+                - cell "Enable" [ref=e128]
+                - cell "Action" [ref=e129]
+            - rowgroup [ref=e130]:
+              - row "Select row file icon sample.pdf unparsed" [ref=e131]:
+                - cell "Select row" [ref=e132]:
+                  - checkbox "Select row" [ref=e133]
+                - cell "file icon sample.pdf" [ref=e134]:
+                  - generic [ref=e135]:
+                    - img "file icon" [ref=e136]
+                    - generic [ref=e137]: sample.pdf
+                - cell [ref=e138]
+                - cell "unparsed" [ref=e139]:
+                  - generic [ref=e140]: unparsed
+                - cell [ref=e141]:
+                  - switch [checked] [ref=e142]
+                - cell [ref=e143]:
+                  - generic [ref=e144]:
+                    - button [ref=e145] [cursor=pointer]:
+                      - img
+                    - button [ref=e146] [cursor=pointer]:
+                      - img
+                    - button [ref=e147] [cursor=pointer]:
+                      - img
+                    - button [ref=e148] [cursor=pointer]:
+                      - img
+          - generic [ref=e149]:
+            - navigation "Pagination" [ref=e150]:
+              - listitem:
+                - button "Previous page" [disabled]:
+                  - img "Previous page"
+              - listitem [ref=e151]:
+                - button "Page 1 is your current page" [ref=e152] [cursor=pointer]: "1"
+              - listitem:
+                - button "Next page" [disabled]:
+                  - img "Next page"
+            - combobox [ref=e153]:
+              - generic: 10 / page
+              - img [ref=e154]
+  - alert [ref=e156]: Sky47 Platform
+```

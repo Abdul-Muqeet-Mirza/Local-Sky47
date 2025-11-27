@@ -1,0 +1,3 @@
+✅ Knowledge Bases heading is visible
+✅ Clicked Create Knowledge Base button
+📝 Filled Knowledge Base name: QA KB 8997

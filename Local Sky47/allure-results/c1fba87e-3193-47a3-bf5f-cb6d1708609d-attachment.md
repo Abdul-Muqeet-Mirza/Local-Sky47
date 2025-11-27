@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e2]:
+        - img [ref=e4]
+        - generic [ref=e7]: Knowledge base created successfully!
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Sky-47 logo" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e15] [cursor=pointer]
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: ADMIN PORTAL
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - link "Dashboard" [ref=e22] [cursor=pointer]:
+                - /url: /
+                - img [ref=e23] [cursor=pointer]
+                - generic [ref=e28] [cursor=pointer]: Dashboard
+            - listitem [ref=e29]:
+              - link "User Management" [ref=e30] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e31] [cursor=pointer]
+                - generic [ref=e36] [cursor=pointer]: User Management
+            - listitem [ref=e37]:
+              - link "Organization" [ref=e38] [cursor=pointer]:
+                - /url: /organizations
+                - img [ref=e39] [cursor=pointer]
+                - generic [ref=e43] [cursor=pointer]: Organization
+            - listitem [ref=e44]:
+              - link "Knowledge Base" [ref=e45] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e46] [cursor=pointer]
+                - generic [ref=e48] [cursor=pointer]: Knowledge Base
+              - list [ref=e50]:
+                - listitem [ref=e51]:
+                  - link "Dataset" [ref=e53] [cursor=pointer]:
+                    - /url: /knowledge-bases/43/data-sets
+                    - img [ref=e54] [cursor=pointer]
+                    - generic [ref=e65] [cursor=pointer]: Dataset
+                - listitem [ref=e66]:
+                  - link "Connectors" [ref=e68] [cursor=pointer]:
+                    - /url: /knowledge-bases/43/connectors
+                    - img [ref=e69] [cursor=pointer]
+                    - generic [ref=e73] [cursor=pointer]: Connectors
+                - listitem [ref=e74]:
+                  - link "Settings" [ref=e76] [cursor=pointer]:
+                    - /url: /knowledge-bases/43/settings
+                    - img [ref=e77] [cursor=pointer]
+                    - generic [ref=e80] [cursor=pointer]: Settings
+            - listitem [ref=e81]:
+              - link "Invitation Tracking" [ref=e82] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e83] [cursor=pointer]
+                - generic [ref=e89] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e90]:
+              - link "Audit & Log" [ref=e91] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e92] [cursor=pointer]
+                - generic [ref=e95] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e97] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e99] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e103]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e104]
+          - paragraph [ref=e105]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e106]:
+          - img [ref=e108]
+          - paragraph
+      - generic [ref=e110]:
+        - heading "Data Sets" [level=3] [ref=e111]
+        - generic [ref=e112]:
+          - button "Add File" [ref=e113] [cursor=pointer]:
+            - img
+            - text: Add File
+          - generic [ref=e114]:
+            - button "Bulk" [disabled]:
+              - text: Bulk
+              - img
+            - generic [ref=e116]:
+              - textbox "Search..." [ref=e118]
+              - img [ref=e120]
+        - generic [ref=e124]:
+          - table [ref=e126]:
+            - rowgroup [ref=e127]:
+              - row "Select all Name Chunk Status Enable Action" [ref=e128]:
+                - cell "Select all" [ref=e129]:
+                  - checkbox "Select all" [ref=e130]
+                - cell "Name" [ref=e131]
+                - cell "Chunk" [ref=e132]
+                - cell "Status" [ref=e133]
+                - cell "Enable" [ref=e134]
+                - cell "Action" [ref=e135]
+            - rowgroup
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - generic [ref=e143]:
+              - heading "No Data Sets Found" [level=4] [ref=e144]
+              - paragraph [ref=e145]: Get started by uploading your first data set. Data sets help you organize and manage your data effectively.
+  - alert [ref=e146]: Sky47 Platform
+```

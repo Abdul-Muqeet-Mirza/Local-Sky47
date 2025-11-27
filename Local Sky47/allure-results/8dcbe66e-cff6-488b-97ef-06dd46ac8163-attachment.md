@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Sky-47 logo" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: ADMIN PORTAL
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "Dashboard" [ref=e16] [cursor=pointer]:
+                - /url: /
+                - img [ref=e17] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: Dashboard
+            - listitem [ref=e23]:
+              - link "User Management" [ref=e24] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e25] [cursor=pointer]
+                - generic [ref=e30] [cursor=pointer]: User Management
+            - listitem [ref=e31]:
+              - link "Organization" [ref=e32] [cursor=pointer]:
+                - /url: /organizations
+                - img [ref=e33] [cursor=pointer]
+                - generic [ref=e37] [cursor=pointer]: Organization
+            - listitem [ref=e38]:
+              - link "Knowledge Base" [active] [ref=e39] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e40] [cursor=pointer]
+                - generic [ref=e42] [cursor=pointer]: Knowledge Base
+            - listitem [ref=e43]:
+              - link "Invitation Tracking" [ref=e44] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e45] [cursor=pointer]
+                - generic [ref=e51] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e52]:
+              - link "Audit & Log" [ref=e53] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e54] [cursor=pointer]
+                - generic [ref=e57] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e59] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e61] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e66]
+          - paragraph [ref=e67]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - paragraph
+      - generic [ref=e72]:
+        - img "Sky-47 logo" [ref=e73]
+        - heading "Coming Soon" [level=2] [ref=e74]
+  - alert [ref=e75]: Sky47 Platform
+```

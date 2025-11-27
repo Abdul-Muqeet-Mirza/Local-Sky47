@@ -1,0 +1,17 @@
+➡️ Navigating to Organizations page...
+✅ Reached Organization page.
+🔍 Validating Organizations page elements...
+✅ "Create Organization" button is visible.
+ℹ️ No existing organizations visible.
+➡️ Clicking "Create Organization" button...
+✅ Clicked "Create Organization" button.
+✏️ Filling organization name: QA Org 1231
+✅ Organization name filled.
+➡️ Clicking "Create" button inside modal...
+✅ Clicked Create in modal.
+✅ Organization "QA Org 1231" created successfully.
+⚙️ Clicked More options button.
+🗑️ Clicked Delete option.
+✅ Confirmed Delete in modal.
+🎉 Verified: Delete success toast displayed.
+✅ Verified organization "QA Org 1231" deleted successfully.

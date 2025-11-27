@@ -1,0 +1,9 @@
+➡️ Navigating to Organizations page...
+✅ Reached Organizations page.
+🔍 Validating Organizations page elements...
+✅ "Create Organization" button is visible.
+ℹ️ No organizations currently visible on this page.
+🟢 Clicked "Create Organization" button.
+✏️ Entered organization name: QA Test 2
+✅ Clicked Create to submit new organization.
+🎉 Verified: "QA Test 2" organization created successfully.

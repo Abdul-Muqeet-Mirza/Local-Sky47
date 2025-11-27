@@ -1,0 +1,4 @@
+✅ Logged in successfully
+➡️ Navigating to Knowledge Bases via sidebar...
+✅ Knowledge Bases page loaded
+✅ Clicked the first "View Knowledge Base" button

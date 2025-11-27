@@ -1,0 +1,280 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Sky-47 logo" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: ADMIN PORTAL
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "Dashboard" [ref=e16] [cursor=pointer]:
+                - /url: /
+                - img [ref=e17] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: Dashboard
+            - listitem [ref=e23]:
+              - link "User Management" [ref=e24] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e25] [cursor=pointer]
+                - generic [ref=e30] [cursor=pointer]: User Management
+            - listitem [ref=e31]:
+              - link "Organization" [ref=e32] [cursor=pointer]:
+                - /url: /organizations
+                - img [ref=e33] [cursor=pointer]
+                - generic [ref=e37] [cursor=pointer]: Organization
+            - listitem [ref=e38]:
+              - link "Knowledge Base" [ref=e39] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e40] [cursor=pointer]
+                - generic [ref=e42] [cursor=pointer]: Knowledge Base
+            - listitem [ref=e43]:
+              - link "Invitation Tracking" [ref=e44] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e45] [cursor=pointer]
+                - generic [ref=e51] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e52]:
+              - link "Audit & Log" [ref=e53] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e54] [cursor=pointer]
+                - generic [ref=e57] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e59] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e61] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e66]
+          - paragraph [ref=e67]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - paragraph
+      - generic [ref=e72]:
+        - heading "User Management" [level=3] [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - button "Invite User" [ref=e76] [cursor=pointer]:
+              - img
+              - text: Invite User
+            - button "Export CSV" [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - button "Bulk" [disabled]:
+                - text: Bulk
+                - img
+              - generic [ref=e80] [cursor=pointer]:
+                - img
+                - generic [ref=e81] [cursor=pointer]: Sort By
+              - generic [ref=e82] [cursor=pointer]:
+                - img
+                - text: Filters
+            - generic [ref=e84]:
+              - textbox "Search..." [ref=e86]
+              - img [ref=e88]
+        - generic [ref=e91]:
+          - table [ref=e94]:
+            - rowgroup [ref=e95]:
+              - row "Select all Name Email Role Status Last Active Action" [ref=e96]:
+                - cell "Select all" [ref=e97]:
+                  - checkbox "Select all" [ref=e98]
+                - cell "Name" [ref=e99]
+                - cell "Email" [ref=e100]
+                - cell "Role" [ref=e101]
+                - cell "Status" [ref=e102]
+                - cell "Last Active" [ref=e103]
+                - cell "Action" [ref=e104]
+            - rowgroup [ref=e105]:
+              - row "Select row New User user_vi8rfa3y@example.com admin active -" [ref=e106] [cursor=pointer]:
+                - cell "Select row" [ref=e107] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e108]
+                - cell "New User" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110] [cursor=pointer]: New User
+                - cell "user_vi8rfa3y@example.com" [ref=e111] [cursor=pointer]:
+                  - generic [ref=e112] [cursor=pointer]: user_vi8rfa3y@example.com
+                - cell "admin" [ref=e113] [cursor=pointer]:
+                  - generic [ref=e114] [cursor=pointer]: admin
+                - cell "active" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116] [cursor=pointer]: active
+                - cell "-" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119] [cursor=pointer]: "-"
+                - cell [ref=e120] [cursor=pointer]:
+                  - generic [ref=e121] [cursor=pointer]:
+                    - button [ref=e122] [cursor=pointer]:
+                      - img
+                    - button [ref=e123] [cursor=pointer]:
+                      - img
+              - row "Select row New User user_ctunvui2@example.com admin active -" [ref=e124] [cursor=pointer]:
+                - cell "Select row" [ref=e125] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e126]
+                - cell "New User" [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128] [cursor=pointer]: New User
+                - cell "user_ctunvui2@example.com" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130] [cursor=pointer]: user_ctunvui2@example.com
+                - cell "admin" [ref=e131] [cursor=pointer]:
+                  - generic [ref=e132] [cursor=pointer]: admin
+                - cell "active" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134] [cursor=pointer]: active
+                - cell "-" [ref=e136] [cursor=pointer]:
+                  - generic [ref=e137] [cursor=pointer]: "-"
+                - cell [ref=e138] [cursor=pointer]:
+                  - generic [ref=e139] [cursor=pointer]:
+                    - button [ref=e140] [cursor=pointer]:
+                      - img
+                    - button [ref=e141] [cursor=pointer]:
+                      - img
+              - row "Select row Admintwo o1d2admin@yopmaiil.com admin active -" [ref=e142] [cursor=pointer]:
+                - cell "Select row" [ref=e143] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e144]
+                - cell "Admintwo" [ref=e145] [cursor=pointer]:
+                  - generic [ref=e146] [cursor=pointer]: Admintwo
+                - cell "o1d2admin@yopmaiil.com" [ref=e147] [cursor=pointer]:
+                  - generic [ref=e148] [cursor=pointer]: o1d2admin@yopmaiil.com
+                - cell "admin" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150] [cursor=pointer]: admin
+                - cell "active" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e152] [cursor=pointer]: active
+                - cell "-" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155] [cursor=pointer]: "-"
+                - cell [ref=e156] [cursor=pointer]:
+                  - generic [ref=e157] [cursor=pointer]:
+                    - button [ref=e158] [cursor=pointer]:
+                      - img
+                    - button [ref=e159] [cursor=pointer]:
+                      - img
+              - row "Select row AdminOne o1d1admin@yopmail.com admin active -" [ref=e160] [cursor=pointer]:
+                - cell "Select row" [ref=e161] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e162]
+                - cell "AdminOne" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e164] [cursor=pointer]: AdminOne
+                - cell "o1d1admin@yopmail.com" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166] [cursor=pointer]: o1d1admin@yopmail.com
+                - cell "admin" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e168] [cursor=pointer]: admin
+                - cell "active" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e170] [cursor=pointer]: active
+                - cell "-" [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173] [cursor=pointer]: "-"
+                - cell [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175] [cursor=pointer]:
+                    - button [ref=e176] [cursor=pointer]:
+                      - img
+                    - button [ref=e177] [cursor=pointer]:
+                      - img
+              - row "Select row Dep daniqa2@yopmail.com admin active -" [ref=e178] [cursor=pointer]:
+                - cell "Select row" [ref=e179] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e180]
+                - cell "Dep" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182] [cursor=pointer]: Dep
+                - cell "daniqa2@yopmail.com" [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184] [cursor=pointer]: daniqa2@yopmail.com
+                - cell "admin" [ref=e185] [cursor=pointer]:
+                  - generic [ref=e186] [cursor=pointer]: admin
+                - cell "active" [ref=e187] [cursor=pointer]:
+                  - generic [ref=e188] [cursor=pointer]: active
+                - cell "-" [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191] [cursor=pointer]: "-"
+                - cell [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193] [cursor=pointer]:
+                    - button [ref=e194] [cursor=pointer]:
+                      - img
+                    - button [ref=e195] [cursor=pointer]:
+                      - img
+              - row "Select row QA Danis daniqa@yopmail.com user active -" [ref=e196] [cursor=pointer]:
+                - cell "Select row" [ref=e197] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e198]
+                - cell "QA Danis" [ref=e199] [cursor=pointer]:
+                  - generic [ref=e200] [cursor=pointer]: QA Danis
+                - cell "daniqa@yopmail.com" [ref=e201] [cursor=pointer]:
+                  - generic [ref=e202] [cursor=pointer]: daniqa@yopmail.com
+                - cell "user" [ref=e203] [cursor=pointer]:
+                  - generic [ref=e204] [cursor=pointer]: user
+                - cell "active" [ref=e205] [cursor=pointer]:
+                  - generic [ref=e206] [cursor=pointer]: active
+                - cell "-" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e209] [cursor=pointer]: "-"
+                - cell [ref=e210] [cursor=pointer]:
+                  - generic [ref=e211] [cursor=pointer]:
+                    - button [ref=e212] [cursor=pointer]:
+                      - img
+                    - button [ref=e213] [cursor=pointer]:
+                      - img
+              - row "Select row Joseph Farisss joseph1@yopmail.com admin active -" [ref=e214] [cursor=pointer]:
+                - cell "Select row" [ref=e215] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e216]
+                - cell "Joseph Farisss" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e218] [cursor=pointer]: Joseph Farisss
+                - cell "joseph1@yopmail.com" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220] [cursor=pointer]: joseph1@yopmail.com
+                - cell "admin" [ref=e221] [cursor=pointer]:
+                  - generic [ref=e222] [cursor=pointer]: admin
+                - cell "active" [ref=e223] [cursor=pointer]:
+                  - generic [ref=e224] [cursor=pointer]: active
+                - cell "-" [ref=e226] [cursor=pointer]:
+                  - generic [ref=e227] [cursor=pointer]: "-"
+                - cell [ref=e228] [cursor=pointer]:
+                  - generic [ref=e229] [cursor=pointer]:
+                    - button [ref=e230] [cursor=pointer]:
+                      - img
+                    - button [ref=e231] [cursor=pointer]:
+                      - img
+              - row "Select row Fawad Mehmood fawad1@yopmail.com admin inactive -" [ref=e232] [cursor=pointer]:
+                - cell "Select row" [ref=e233] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e234]
+                - cell "Fawad Mehmood" [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236] [cursor=pointer]: Fawad Mehmood
+                - cell "fawad1@yopmail.com" [ref=e237] [cursor=pointer]:
+                  - generic [ref=e238] [cursor=pointer]: fawad1@yopmail.com
+                - cell "admin" [ref=e239] [cursor=pointer]:
+                  - generic [ref=e240] [cursor=pointer]: admin
+                - cell "inactive" [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242] [cursor=pointer]: inactive
+                - cell "-" [ref=e244] [cursor=pointer]:
+                  - generic [ref=e245] [cursor=pointer]: "-"
+                - cell [ref=e246] [cursor=pointer]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - button [ref=e248] [cursor=pointer]:
+                      - img
+                    - button [ref=e249] [cursor=pointer]:
+                      - img
+              - row "Select row SKY-47 Admin admin@sky47.com admin active -" [ref=e250] [cursor=pointer]:
+                - cell "Select row" [ref=e251] [cursor=pointer]:
+                  - checkbox "Select row" [ref=e252]
+                - cell "SKY-47 Admin" [ref=e253] [cursor=pointer]:
+                  - generic [ref=e254] [cursor=pointer]: SKY-47 Admin
+                - cell "admin@sky47.com" [ref=e255] [cursor=pointer]:
+                  - generic [ref=e256] [cursor=pointer]: admin@sky47.com
+                - cell "admin" [ref=e257] [cursor=pointer]:
+                  - generic [ref=e258] [cursor=pointer]: admin
+                - cell "active" [ref=e259] [cursor=pointer]:
+                  - generic [ref=e260] [cursor=pointer]: active
+                - cell "-" [ref=e262] [cursor=pointer]:
+                  - generic [ref=e263] [cursor=pointer]: "-"
+                - cell [ref=e264] [cursor=pointer]:
+                  - generic [ref=e265] [cursor=pointer]:
+                    - button [ref=e266] [cursor=pointer]:
+                      - img
+                    - button [ref=e267] [cursor=pointer]:
+                      - img
+          - generic [ref=e268]:
+            - navigation "Pagination" [ref=e269]:
+              - listitem:
+                - button "Previous page" [disabled]:
+                  - img "Previous page"
+              - listitem [ref=e270]:
+                - button "Page 1 is your current page" [ref=e271] [cursor=pointer]: "1"
+              - listitem:
+                - button "Next page" [disabled]:
+                  - img "Next page"
+            - combobox [ref=e272]:
+              - generic: 10 / page
+              - img [ref=e273]
+  - alert [ref=e275]: Sky47 Platform
+```

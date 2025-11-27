@@ -1,0 +1,229 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+                - img
+            - generic:
+              - generic:
+                - generic: ADMIN PORTAL
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: /
+                        - img
+                        - generic: Dashboard
+                    - listitem:
+                      - link:
+                        - /url: /users
+                        - img
+                        - generic: User Management
+                    - listitem:
+                      - link:
+                        - /url: /organizations
+                        - img
+                        - generic: Organization
+                    - listitem:
+                      - link:
+                        - /url: /knowledge-bases
+                        - img
+                        - generic: Knowledge Base
+                    - listitem:
+                      - link:
+                        - /url: /invitation-tracking
+                        - img
+                        - generic: Invitation Tracking
+                    - listitem:
+                      - link:
+                        - /url: /audit-log
+                        - img
+                        - generic: Audit & Log
+              - generic:
+                - link:
+                  - /url: /chat
+                  - img
+                  - text: Chat
+            - generic:
+              - button:
+                - img
+                - text: Logout
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=4]: Powering Intelligence, Simplifying Action
+              - paragraph: Control and monitor your AI services with real-time clarity.
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - heading [level=3]: Knowledge Bases
+            - generic:
+              - generic:
+                - button:
+                  - img
+                  - text: Create Knowledge Base
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox
+                    - generic:
+                      - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: O1K3
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Engineering
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Faaris g
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Operations
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: KB 5
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Engineering
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: KB 4
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Engineering
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: KB 3
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Engineering
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: KB 2
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Engineering
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Fawad KB
+                    - generic: active
+                  - generic:
+                    - generic:
+                      - generic: Doc
+                      - paragraph: "0"
+                      - generic: Dept Assigned
+                      - generic:
+                        - paragraph: Engineering
+                  - generic:
+                    - button: View Knowledge Base
+                    - button:
+                      - img
+              - generic:
+                - navigation:
+                  - listitem:
+                    - button [disabled]:
+                      - img
+                  - listitem:
+                    - button: "1"
+                  - listitem:
+                    - button [disabled]:
+                      - img
+                - combobox:
+                  - generic: 9 / page
+                  - img
+  - alert: Sky47 Platform
+  - dialog "Create Knowledge Base" [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Create Knowledge Base" [level=2] [ref=e4]
+      - paragraph [ref=e5]: Add a new knowledge base.
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Knowledge Base Name
+        - textbox "Knowledge Base Name" [ref=e10]: Test KB 1762936559718
+      - generic [ref=e11]:
+        - generic [ref=e12]: Assign Department
+        - combobox [active] [ref=e13] [cursor=pointer]:
+          - generic [ref=e15] [cursor=pointer]:
+            - text: QA Dept 8135
+            - img
+          - img
+      - generic [ref=e16]:
+        - button "Create" [ref=e17] [cursor=pointer]
+        - button "Cancel" [ref=e18] [cursor=pointer]
+```

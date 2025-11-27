@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e2]:
+        - img [ref=e4]
+        - generic [ref=e7]: Department deleted successfully!
+      - listitem [ref=e8]:
+        - img [ref=e10]
+        - generic [ref=e13]: Department renamed successfully!
+  - generic [ref=e15]:
+    - generic [ref=e18]:
+      - link "Sky-47 logo" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e21] [cursor=pointer]
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: ADMIN PORTAL
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "Dashboard" [ref=e28] [cursor=pointer]:
+                - /url: /
+                - img [ref=e29] [cursor=pointer]
+                - generic [ref=e34] [cursor=pointer]: Dashboard
+            - listitem [ref=e35]:
+              - link "User Management" [ref=e36] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e37] [cursor=pointer]
+                - generic [ref=e42] [cursor=pointer]: User Management
+            - listitem [ref=e43]:
+              - link "Organization" [ref=e44] [cursor=pointer]:
+                - /url: /organizations
+                - img [ref=e45] [cursor=pointer]
+                - generic [ref=e49] [cursor=pointer]: Organization
+              - list [ref=e51]:
+                - listitem [ref=e52]:
+                  - link "Departments" [ref=e54] [cursor=pointer]:
+                    - /url: /departments?orgId=92
+                    - img [ref=e55] [cursor=pointer]
+                    - generic [ref=e59] [cursor=pointer]: Departments
+            - listitem [ref=e60]:
+              - link "Knowledge Base" [ref=e61] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e62] [cursor=pointer]
+                - generic [ref=e64] [cursor=pointer]: Knowledge Base
+            - listitem [ref=e65]:
+              - link "Invitation Tracking" [ref=e66] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e67] [cursor=pointer]
+                - generic [ref=e73] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e74]:
+              - link "Audit & Log" [ref=e75] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e76] [cursor=pointer]
+                - generic [ref=e79] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e81] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e83] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e87]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e88]
+          - paragraph [ref=e89]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - paragraph
+      - generic [ref=e94]:
+        - heading "Departments" [level=3] [ref=e95]
+        - button "Add Department" [ref=e98] [cursor=pointer]:
+          - img
+          - text: Add Department
+        - generic [ref=e101]:
+          - img [ref=e103]
+          - generic [ref=e107]:
+            - heading "No Departments Found" [level=4] [ref=e108]
+            - paragraph [ref=e109]: Get started by creating your first department. Departments help you manage teams and resources effectively.
+  - alert [ref=e110]: Sky47 Platform
+```

@@ -1,0 +1,3 @@
+Initially checked: true
+After first click: false
+After second click: true

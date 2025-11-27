@@ -1,0 +1,68 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - link "Sky-47 logo" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Sky-47 logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: ADMIN PORTAL
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "Dashboard" [ref=e16] [cursor=pointer]:
+                - /url: /
+                - img [ref=e17] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: Dashboard
+            - listitem [ref=e23]:
+              - link "User Management" [ref=e24] [cursor=pointer]:
+                - /url: /users
+                - img [ref=e25] [cursor=pointer]
+                - generic [ref=e30] [cursor=pointer]: User Management
+            - listitem [ref=e31]:
+              - link "Departments" [active] [ref=e32] [cursor=pointer]:
+                - /url: /departments
+                - img [ref=e33] [cursor=pointer]
+                - generic [ref=e38] [cursor=pointer]: Departments
+            - listitem [ref=e39]:
+              - link "Knowledge Base" [ref=e40] [cursor=pointer]:
+                - /url: /knowledge-bases
+                - img [ref=e41] [cursor=pointer]
+                - generic [ref=e43] [cursor=pointer]: Knowledge Base
+            - listitem [ref=e44]:
+              - link "Invitation Tracking" [ref=e45] [cursor=pointer]:
+                - /url: /invitation-tracking
+                - img [ref=e46] [cursor=pointer]
+                - generic [ref=e52] [cursor=pointer]: Invitation Tracking
+            - listitem [ref=e53]:
+              - link "Audit & Log" [ref=e54] [cursor=pointer]:
+                - /url: /audit-log
+                - img [ref=e55] [cursor=pointer]
+                - generic [ref=e58] [cursor=pointer]: Audit & Log
+        - link "Chat" [ref=e60] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - text: Chat
+      - button "Logout" [ref=e62] [cursor=pointer]:
+        - img
+        - text: Logout
+    - main [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - heading "Powering Intelligence, Simplifying Action" [level=4] [ref=e67]
+          - paragraph [ref=e68]: Control and monitor your AI services with real-time clarity.
+        - generic [ref=e69]:
+          - img "SKY-47 Admin" [ref=e71]
+          - paragraph [ref=e72]: SKY-47 Admin
+      - generic [ref=e74]:
+        - heading "Departments" [level=3] [ref=e75]
+        - generic [ref=e78]:
+          - img [ref=e80]
+          - generic [ref=e84]:
+            - heading "No Departments Found" [level=4] [ref=e85]
+            - paragraph [ref=e86]: Get started by creating your first department. Departments help you manage teams and resources effectively.
+  - alert [ref=e87]: Sky47 Platform
+```

@@ -1,0 +1,7 @@
+➡️ Login page loaded.
+✏️ Filled email and password.
+➡️ Login button clicked.
+✅ Login successful, User Management link visible.
+➡️ Navigated to User Management page.
+✅ User Management page loaded.
+✅ User Management heading verified.

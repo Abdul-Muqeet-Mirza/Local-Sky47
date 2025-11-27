@@ -1,0 +1,4 @@
+➡️ Navigating to Organizations page...
+✅ Reached Organizations page.
+ℹ️ No organization found to open.
+✅ Organization details page opened successfully.

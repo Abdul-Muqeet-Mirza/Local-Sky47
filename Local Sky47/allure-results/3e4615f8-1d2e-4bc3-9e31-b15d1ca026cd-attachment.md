@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+                - img
+            - generic:
+              - generic:
+                - generic: ADMIN PORTAL
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: /
+                        - img
+                        - generic: Dashboard
+                    - listitem:
+                      - link:
+                        - /url: /users
+                        - img
+                        - generic: User Management
+                    - listitem:
+                      - link:
+                        - /url: /organizations
+                        - img
+                        - generic: Organization
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link:
+                              - /url: /departments?orgId=95
+                              - img
+                              - generic: Departments
+                    - listitem:
+                      - link:
+                        - /url: /knowledge-bases
+                        - img
+                        - generic: Knowledge Base
+                    - listitem:
+                      - link:
+                        - /url: /invitation-tracking
+                        - img
+                        - generic: Invitation Tracking
+                    - listitem:
+                      - link:
+                        - /url: /audit-log
+                        - img
+                        - generic: Audit & Log
+              - generic:
+                - link:
+                  - /url: /chat
+                  - img
+                  - text: Chat
+            - generic:
+              - button:
+                - img
+                - text: Logout
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=4]: Powering Intelligence, Simplifying Action
+              - paragraph: Control and monitor your AI services with real-time clarity.
+          - generic:
+            - generic:
+              - img
+        - generic:
+          - generic:
+            - heading [level=3]: Departments
+            - generic:
+              - generic:
+                - button:
+                  - img
+                  - text: Add Department
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - heading [level=4]: No Departments Found
+                    - paragraph: Get started by creating your first department. Departments help you manage teams and resources effectively.
+  - alert: Sky47 Platform
+  - dialog "Create Department" [active] [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Create Department" [level=2] [ref=e4]
+      - paragraph [ref=e5]: Add a new department to this organization.
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Department Name
+        - textbox "Department Name" [ref=e10]: QA Dept 7294
+      - generic [ref=e11]:
+        - button "Create" [ref=e12] [cursor=pointer]
+        - button "Cancel" [ref=e13] [cursor=pointer]
+```
