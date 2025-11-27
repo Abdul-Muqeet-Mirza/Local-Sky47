@@ -1,5 +1,0 @@
-✅ Logged in successfully
-➡️ Navigating to Knowledge Bases via sidebar...
-✅ Knowledge Bases page loaded
-✅ Clicked Create Knowledge Base button
-📝 Filled Knowledge Base name: Test KB 1762949065923

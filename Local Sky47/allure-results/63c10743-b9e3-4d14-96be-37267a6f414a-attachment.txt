@@ -1,4 +1,0 @@
-➡️ Navigating to Knowledge Bases...
-✅ Clicked Knowledge Base in sidebar
-✅ Knowledge Bases heading is visible
-📄 Verified: Knowledge Bases page is displayed

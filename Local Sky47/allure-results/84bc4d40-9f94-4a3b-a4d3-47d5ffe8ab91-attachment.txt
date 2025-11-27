@@ -1,7 +1,0 @@
-➡️ Navigating to Organizations page...
-🌐 URL changed to /organizations
-✅ Organizations page loaded — heading found: "Organizations"
-✅ Organizations page validated
-✅ Clicked Create Organization
-✅ Organization name filled: "QA Org 9513"
-✅ Clicked Create in modal

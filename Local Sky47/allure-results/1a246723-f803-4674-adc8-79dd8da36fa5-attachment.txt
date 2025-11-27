@@ -1,3 +1,0 @@
-✅ Logged in successfully
-➡️ Navigating to Knowledge Bases via sidebar...
-⚠️ No network response detected

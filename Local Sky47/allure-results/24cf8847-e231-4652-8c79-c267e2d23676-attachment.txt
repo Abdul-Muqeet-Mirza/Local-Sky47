@@ -1,9 +1,0 @@
-✅ Logged in successfully
-➡️ Navigating to Knowledge Bases via sidebar...
-✅ Knowledge Bases page loaded
-✅ Clicked Create Knowledge Base button
-📝 Filled Knowledge Base name: Test KB 1762937089878
-✅ Assigned department: QA Dept 8135
-✅ Clicked outside to close dropdown
-🎉 Knowledge Base created successfully
-✅ Verified Knowledge Base "Test KB 1762937089878" exists

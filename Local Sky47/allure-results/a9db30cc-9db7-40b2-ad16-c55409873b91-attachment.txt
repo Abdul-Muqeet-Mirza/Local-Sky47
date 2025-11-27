@@ -1,4 +1,0 @@
-➡️ Login page loaded.
-✏️ Filled email and password.
-➡️ Login button clicked.
-✅ Login successful, User Management link visible.

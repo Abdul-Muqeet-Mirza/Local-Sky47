@@ -1,8 +1,0 @@
-➡️ Navigated to https://r08sgs0k08gw0sgccscoo4o8.49.13.228.64.sslip.io/login
-✅ Submitted login form
-✅ Navigated to User Management
-✅ Invite User dialog opened
-✅ Selected "Org1" from "Organization" dropdown
-✅ Selected "O1D1" from "Department" dropdown
-✅ Selected "Admin" from "Role" dropdown
-✅ Filled Invite User form with email: user_5j0spq1x@example.com, name: New User, org: Org1, dept: O1D1, role: Admin

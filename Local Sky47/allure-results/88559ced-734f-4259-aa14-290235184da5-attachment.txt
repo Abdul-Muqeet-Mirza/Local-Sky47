@@ -1,8 +1,0 @@
-✅ Logged in successfully
-➡️ Navigating to Knowledge Bases via sidebar...
-✅ Knowledge Bases page loaded
-✅ Clicked the first "View Knowledge Base" button
-✅ Clicked Settings in sidebar
-✅ Knowledge Base Settings page loaded
-📝 Updated Knowledge Base name to "Updated KB 1762949233598"
-✅ Knowledge Base name updated successfully
